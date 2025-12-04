@@ -169,6 +169,9 @@ input[type='submit']:hover{
 /* responsive */
 /* ukuran hp */
 @media screen and (max-width: 576px){
+    body{
+        overflow-x: hidden;
+    }
     .menu-toggle{
         display: flex;
         z-index: 1;
