@@ -194,7 +194,17 @@ input[type='submit']:hover{
         opacity: 1;
         transform: translateX(0);
     }
+    .email{
+    width: 50%;
 }
+.socmed{
+    width: 30%;
+    align-items: center;
+    text-align: center;
+}
+}
+/* contact */
+
 
 /* ukuran tablet */
 @media screen and (max-width: 768px){
