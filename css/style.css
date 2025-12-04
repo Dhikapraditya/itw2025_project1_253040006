@@ -194,14 +194,20 @@ input[type='submit']:hover{
         opacity: 1;
         transform: translateX(0);
     }
+    h4{
+    padding-left: 0px;
+    }
     .email{
+    width: 70%;
+    }
+    .socmed{
     width: 50%;
-}
-.socmed{
-    width: 30%;
     align-items: center;
     text-align: center;
-}
+    }
+    .socmed img{
+        padding-top: 20px;
+    }
 }
 /* contact */
 
@@ -209,6 +215,11 @@ input[type='submit']:hover{
 /* ukuran tablet */
 @media screen and (max-width: 768px){
     nav ul{
-        width: 50%;
+        width: 70%;
+    }
+
+    .socmed{
+        width: 40%;
+        text-align: center;
     }
 }
