@@ -13,6 +13,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 100px;
     gap: 3rem;
     /* background-color: black; */
 }
@@ -77,6 +78,9 @@ nav{
     padding: 20px 0;
     z-index: 3;
     letter-spacing: 1px;
+    /* border-bottom: 1px solid #352f44; */
+    box-shadow: 0 0px 2px 2px #352f44;
+    backdrop-filter: blur(5px);
 }
 nav ul{
     display: flex;
@@ -129,6 +133,59 @@ nav ul li a:hover{
     border-radius: 3px;
     transition: all 0.5s;
 }
+/* project */
+.text-proj h3{
+    border: 10px solid black;
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+.project{
+    display: flex;
+    margin: 30px 170px;
+}
+.project h4{
+    padding: 0;
+    padding-top: 20px;
+    font-size: 30px;
+}
+.project-1{
+    border: 10px solid black;
+    padding: 20px
+}
+.project-1 a{
+    color: black;
+}
+.project-1 img{
+    width: 400px;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 0 0 5px 4px ;
+    transition: 0.3s ease-in-out;
+}
+.project-1 a:hover img{
+    filter: brightness(50%);
+}
+.project-2 a{
+    color: black;
+}
+.project-2 img{
+    width: 400px;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 0 0 5px 4px ;
+    transition: 0.3s ease-in-out;
+}
+.project-2 a:hover img{
+    filter: brightness(50%);
+}
+.project-2{
+    border: 10px solid black;
+    padding: 20px;
+}
+/* project */
 
 /* contact */
 h4{
@@ -197,6 +254,7 @@ input[type='submit']:hover{
     padding-right: 10px;
     padding-left: 3px;
 }
+/* contact */
 
 /* hamburger menu animation */
 
@@ -268,6 +326,12 @@ input[type='submit']:hover{
     .socmed img{
         padding-top: 20px;
     }
+    /* home */
+    .home{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+    /* home end */
 }
 /* contact */
 
@@ -282,4 +346,13 @@ input[type='submit']:hover{
         width: 40%;
         text-align: center;
     }
+    .project{
+        display: flex;
+        justify-content: space-between;
+    }
+    .project-1,
+    .project-2 {
+        
+    }
+}
 }
