@@ -145,6 +145,7 @@ nav ul li a:hover{
 .project{
     display: flex;
     margin: 30px 170px;
+    
 }
 .project h4{
     padding: 0;
@@ -152,7 +153,6 @@ nav ul li a:hover{
     font-size: 30px;
 }
 .project-1{
-    border: 10px solid black;
     padding: 20px
 }
 .project-1 a{
@@ -182,7 +182,6 @@ nav ul li a:hover{
     filter: brightness(50%);
 }
 .project-2{
-    border: 10px solid black;
     padding: 20px;
 }
 /* project */
@@ -332,6 +331,17 @@ input[type='submit']:hover{
         display: flex;
         flex-direction: column;
     /* home end */
+    }
+    /* project */
+    .project{
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .project img{
+        width: 100%;
+    }
+    /* project end */
 }
 /* contact */
 
@@ -354,5 +364,4 @@ input[type='submit']:hover{
     .project-2 {
         
     }
-}
 }
