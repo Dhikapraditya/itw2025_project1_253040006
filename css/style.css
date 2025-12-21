@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden
 }
 body{
     height: auto;
@@ -11,11 +12,17 @@ body{
 /* home */
 .home{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 100px;
+    padding-top: 150px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* padding-top: 100px; */
     gap: 3rem;
     /* background-color: black; */
+    background-color: #393e46;
+    z-index: 12;
+    position: absolute;
+    width: 100%;
+    height: 400px;
 }
 .home-content h1{
     font-size: 4rem;
@@ -39,8 +46,6 @@ body{
 .home-img img{
     position: relative;
     width: 300px;
-    border-radius: 50%;
-    border: 4px solid black ;
     box-shadow: 0 0 25px solid black;
     cursor: pointer;
     transition: 0.2s linear;
@@ -79,7 +84,7 @@ nav{
     z-index: 3;
     letter-spacing: 1px;
     /* border-bottom: 1px solid #352f44; */
-    box-shadow: 0 0px 2px 2px #352f44;
+    /* box-shadow: 0 0px 2px 2px #352f44; */
     backdrop-filter: blur(5px);
 }
 nav ul{
@@ -93,17 +98,21 @@ nav ul li{
     padding-right: 40px;
 }
 nav ul li a{
-    color: #2a2438;
+    /* color: #dbd8e3;
+    background-color: #000047; */
     text-decoration: none;
-    transition: 0.3s;
+    transition: 0.5s;
     font-weight: bold;
-}
-nav ul li a:hover{
-    color:  #dbd8e3;
-    /* background-color: #2a2438; */
-    background-color: #000047;
     padding: 5px;
     border-radius: 10px;
+    color: #000047;
+    background-color: transparent;
+}
+nav ul li a:hover{
+    /* color:  #000047;
+    background-color: transparent; */
+    color: #dbd8e3;
+    background-color: #000047;
 }
 
 /* menu toggle */
@@ -134,6 +143,11 @@ nav ul li a:hover{
     border-radius: 3px;
     transition: all 0.5s;
 }
+/* profile */
+.prov{
+    margin-top: 800px;
+}
+/* profile */
 /* education  */
 .edu-text h1{
     margin-top: 200px;
@@ -176,12 +190,14 @@ nav ul li a:hover{
     padding-top: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
-    margin-top: 100px;
+    margin-top: 200px;
+    margin-bottom: 50px;
 }
 .project{
     display: flex;
-    margin: 10px 100px 50px 190px ;
-    
+    /* margin: 10px 100px 50px 190px ; */
+    justify-content: space-evenly;
+    background-color: #2B3856;
 }
 .project h4{
     padding: 0;
@@ -224,6 +240,11 @@ nav ul li a:hover{
 /* project end*/
 
 /* contact */
+.text-cont h1{
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
 h4{
     padding-left: 350px;
     padding-bottom: 10px;
@@ -243,6 +264,9 @@ h4{
 }
 .form-group{
     margin-bottom: 20px;
+}
+.form-group input:hover, textarea:hover{
+    border: solid blue;
 }
 label{
     display: block;
@@ -273,7 +297,7 @@ input[type='submit']:hover{
     background-color: white;
     margin: auto;
     margin-top: 60px;
-    width: 200px;
+    width: 270px;
     padding: 30px;
     box-shadow: 0 0 3px 3px rgba(0,0,0,.3);
     border-radius: 10px;
@@ -292,7 +316,7 @@ input[type='submit']:hover{
     transition: 0.3s ease-in-out;
 }
 .socmed a:hover img{
-    filter: brightness(50%);
+    filter: brightness(50%)
 }
 /* contact */
 
@@ -321,7 +345,7 @@ input[type='submit']:hover{
 
 /* footer */
 .foot{
-    height: 300px;
+    height: 250px;
     background-color: #000047;
     margin-top: 50px;
     padding: 30px;
@@ -429,17 +453,18 @@ input[type='submit']:hover{
     }
     /* home */
     .home{
-        width: 70%;
+        width: 100%;
+        height: 100%;
         display: flex;
         flex-direction: column;
     }
     .home-img img{
-        width: 80%;
+        width: 50px;
         margin-left: 50px;
     }
     .home-content{
         width: 300px;
-        margin-left: 200px;
+        margin-left: 100px;
     }
     /* home end */
     /* education */
