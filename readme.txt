@@ -1,3 +1,5 @@
-icon logo whatsapp, instagram, youtube source :https://www.flaticon.com/ 
+icon logo whatsapp, instagram, youtube,github source :https://www.flaticon.com/ 
 
 color codes : https://htmlcolorcodes.com/
+
+scroll animation js extension (AOS) : https://michalsnik.github.io/aos/
