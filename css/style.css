@@ -607,7 +607,7 @@ input[type='submit']:hover{
     /* home end */
     /* profile */
     #profile{
-        margin-top: 100px;
+        margin-top: 150px;
     }
     .profile-content {
         flex-direction: column;
@@ -632,12 +632,9 @@ input[type='submit']:hover{
         flex-direction: column;
         /* margin: auto; */
         padding-left: 10px;
-        /* width: 100%; */
+        width: 90%;
     }
 
-    .project img{
-        /* width: 100%; */
-    }
     /* project end */
     /* footer */
     .foot-1 h1{
