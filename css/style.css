@@ -1,13 +1,16 @@
 *{
     margin: 0;
     padding: 0;
-    overflow-x: hidden
+    /* overflow-x: hidden; */
 }
 body{
     height: auto;
+    width: 100%;
     background-color: #dbd8e3;
     overflow-x: hidden;
     font-family: sans-serif;
+    padding: 0;
+    margin: 0;
 }
 /* home */
 .home{
@@ -18,9 +21,9 @@ body{
     /* padding-top: 100px; */
     gap: 3rem;
     /* background-color: black; */
-    background-color: #393e46;
-    z-index: 12;
-    position: absolute;
+    /* background-color: #393e46; */
+    /* z-index: 12; */
+    /* position: absolute; */
     width: 100%;
     height: 400px;
 }
@@ -144,9 +147,50 @@ nav ul li a:hover{
     transition: all 0.5s;
 }
 /* profile */
-.prov{
-    margin-top: 800px;
+#profile {
+    margin-top: 200px;
+    padding: 50px 0;
+    background-color: #f5f5f5;
+    border: 2px solid #000047;
 }
+.profile-container {
+    width: 80%;
+    margin: auto;
+}
+.profile-container h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #000047;
+}
+.profile-content {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.profile-img img {
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+.profile-text h2 {
+    color: #000047;
+    margin-bottom: 15px;
+}
+.profile-text p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+.profile-data {
+    list-style: none;
+}
+.profile-data li {
+    margin-bottom: 10px;
+}
+.profile-data span {
+    font-weight: bold;
+    color: #000047;
+}
+
 /* profile */
 /* education  */
 .edu-text h1{
@@ -195,9 +239,14 @@ nav ul li a:hover{
 }
 .project{
     display: flex;
+    flex-wrap: wrap;
     /* margin: 10px 100px 50px 190px ; */
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+    justify-content: left;
+    padding-left: 150px;
+    gap: 100px;
     background-color: #2B3856;
+    /* height: 1000px; */
 }
 .project h4{
     padding: 0;
@@ -236,6 +285,24 @@ nav ul li a:hover{
 }
 .project-2{
     padding: 20px;
+}
+.project-3 a{
+    color: black;
+}
+.project-3 img{
+    width: 400px;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 0 0 5px 4px ;
+    transition: 0.3s ease-in-out;
+}
+.project-3 a:hover img{
+    filter: brightness(50%);
+}
+.project-3{
+    padding: 20px;
+    margin-top: -50px;
+    /* border: 2px solid black; */
 }
 /* project end*/
 
@@ -392,6 +459,9 @@ input[type='submit']:hover{
 @media screen and (max-width: 576px){
     body{
         overflow-x: hidden;
+        padding: 0;
+        margin: 0;
+        width: 100%;
     }
     .menu-toggle{
         display: flex;
@@ -424,6 +494,7 @@ input[type='submit']:hover{
         padding: 5px;
         border-radius: 10px;
         transition: 0.5s;
+        z-index: 200;
     }
     nav ul li a:hover{
         color: #000047;
@@ -453,10 +524,11 @@ input[type='submit']:hover{
     }
     /* home */
     .home{
-        width: 100%;
-        height: 100%;
+        width: 70%;
         display: flex;
         flex-direction: column;
+        /* position: absolute; */
+        /* margin-bottom: 800px; */
     }
     .home-img img{
         width: 50px;
@@ -467,6 +539,16 @@ input[type='submit']:hover{
         margin-left: 100px;
     }
     /* home end */
+    /* profile */
+    .profile-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-img img {
+        width: 200px;
+    }
+    /* profile end */
     /* education */
     .edu{
         flex-direction: column;
@@ -479,8 +561,8 @@ input[type='submit']:hover{
     /* project */
     .project{
         flex-direction: column;
-        margin: auto;
-        margin-left: 100px;
+        /* margin: auto; */
+        width: 100%;
     }
 
     .project img{
