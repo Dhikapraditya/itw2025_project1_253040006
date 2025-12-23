@@ -603,6 +603,8 @@ input[type='submit']:hover{
     .home-content{
         width: 300px;
         margin-left: 50px;
+        align-items: center;
+        text-align: center;
     }
     .home-content h1{
         font-size: 1.7rem;
