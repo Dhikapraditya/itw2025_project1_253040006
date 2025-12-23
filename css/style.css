@@ -257,7 +257,10 @@ nav ul li a:hover{
     padding: 0;
     padding-top: 20px;
     font-size: 30px;
-    color: black;
+    color: white;
+}
+.project p{
+    color: white;
 }
 .project-1{
     padding: 20px;
