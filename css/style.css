@@ -31,6 +31,10 @@ body{
     width: 100%;
     height: 400px;
 }
+.home-content{
+    /* border: 2px solid black; */
+    padding-top: 50px;
+}
 .home-content h1{
     font-size: 4rem;
     font-weight: 700;
@@ -419,13 +423,13 @@ input[type='submit']:hover{
 
 /* footer */
 .foot{
-    height: 250px;
+    height: 70px;
     background-color: #000047;
     margin-top: 50px;
     padding: 30px;
     color: white;
 }
-.foot-1{
+/* .foot-1{
     display: flex;
     justify-content: space-around;
 }
@@ -439,12 +443,12 @@ input[type='submit']:hover{
 }
 .foot ul li a:hover{
     color: #5C5CFF;
-}
+} */
 .foot-under{
     flex-direction: column;
 }
 .foot-under hr{
-    margin-top: 50px;
+    margin-top: 10px;
 }
 .foot-under p{
     text-align: center;
