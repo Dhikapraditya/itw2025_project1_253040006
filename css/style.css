@@ -80,14 +80,12 @@ body{
 }
 h3{
     color: #dbd8e3;
-    
-    
 }
 nav{
     display: flex;
     /* position: absolute; */
     justify-content: space-around;
-    /* background-color: #352f44; */
+    background-color: #dbd8e3;
     position: sticky;
     top: 0;
     padding: 20px 0;
@@ -95,7 +93,8 @@ nav{
     letter-spacing: 1px;
     /* border-bottom: 1px solid #352f44; */
     /* box-shadow: 0 0px 2px 2px #352f44; */
-    backdrop-filter: blur(5px);
+    /* backdrop-filter: blur(5px); */
+    border-bottom: 1px solid black;
 }
 nav ul{
     display: flex;
