@@ -466,6 +466,10 @@ input[type='submit']:hover{
 
 /* ukuran tablet */
 @media screen and (max-width: 768px){
+    html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
     body{
         overflow-x: hidden;
     }
@@ -479,7 +483,7 @@ input[type='submit']:hover{
     }
     .project{
         margin: auto;
-        margin-left: 10px;
+        /* margin-left: 10px; */
     }
     .project img{
         width: 300px;
@@ -645,7 +649,7 @@ input[type='submit']:hover{
         flex-direction: column;
         /* margin: auto; */
         padding-left: 10px;
-        width: 93%;
+        /* width: 93%; */
     }
 
     /* project end */
