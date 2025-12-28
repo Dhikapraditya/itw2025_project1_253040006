@@ -318,23 +318,13 @@ nav ul li a:hover{
 /* project end*/
 
 /* contact */
-.text-cont h1{
-    text-align: center;
-    margin-top: 200px;
-    margin-bottom: 50px;
-}
-h4{
-    padding-left: 350px;
-    padding-bottom: 10px;
-    padding-top: 30px;
-    color: #2a2438;
+
+#contact{
+    display: flex;
 }
 .email{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     background-color: white;
-    margin: auto;
+    margin: 200px 100px 100px;
     width: 500px;
     padding: 30px;
     box-shadow: 0 0 3px 3px rgba(0,0,0,.3);
@@ -372,30 +362,76 @@ input[type='submit']:hover{
     background-color: #352f44;
 }
 .socmed{
-    background-color: white;
-    margin: auto;
-    margin-top: 60px;
+    /* background-color: white; */
+    margin: 200px 50px 100px;
     width: 270px;
     padding: 30px;
-    box-shadow: 0 0 3px 3px rgba(0,0,0,.3);
-    border-radius: 10px;
+    /* box-shadow: 0 0 3px 3px rgba(0,0,0,.3); */
+    /* border-radius: 10px; */
 }
-.socmed h5{
-    padding-bottom: 5px;
-    text-align: center;
+.socmed h1,h2{
+    /* color: white; */
+    line-height: 50px;
 }
 .socmed a{
     text-decoration: none;
 }
 .socmed img{
     width: 50px;
-    padding-right: 10px;
-    padding-left: 3px;
+    padding: 5px;
     transition: 0.3s ease-in-out;
+    /* background-color: #000047; */
+
 }
 .socmed a:hover img{
-    filter: brightness(50%)
+    /* filter: brightness(50%) */
+    background-color: white;
+    border-radius: 10px;
 }
+
+.socmed-icons{
+    display: flex;
+    gap: 15px;
+}
+
+.socmed-icon{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.3s ease-in-out;
+}
+
+.img-instagram{
+    background-image: url("/img/contactimg/instagram\ \(1\).png");
+}
+.img-instagram:hover{
+    background-image: url("/img/contactimg/instagram\ \(3\).png");
+}
+
+.img-wa{
+    background-image: url("/img/contactimg/whatsapp.png");
+}
+.img-wa:hover{
+    background-image: url("/img/contactimg/whatsapp\ \(1\).png");
+}
+
+.img-yt{
+    background-image: url("/img/contactimg/youtube\ \(1\).png");
+}
+.img-yt:hover{
+    background-image: url("/img/contactimg/youtube\ \(2\).png");
+}
+
+.img-git{
+    background-image: url("/img/contactimg/github.png");
+}
+.img-git:hover{
+    background-image: url("/img/contactimg/github\ \(1\).png");
+}
+
+
 /* contact */
 
 /* hamburger menu animation */
@@ -479,11 +515,6 @@ input[type='submit']:hover{
     nav ul{
         width: 70%;
     }
-
-    .socmed{
-        width: 40%;
-        text-align: center;
-    }
     .project{
         margin: auto;
         /* margin-left: 10px; */
@@ -523,6 +554,24 @@ input[type='submit']:hover{
         width: 170px;
     }
     /* education end */
+    /* contact */
+    #contact{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .email{
+        width: 80%;
+        margin: 50px ;
+    }
+    .socmed{
+        text-align: center;
+        margin: 0;
+    }
+    .socmed-icons{
+        justify-content: center;
+    }
+    /* contact end */
 }
 
 
@@ -588,16 +637,24 @@ input[type='submit']:hover{
     h4{
     padding-left: 0px;
     }
+    #contact{
+        flex-direction: column;
+        align-items: center;
+    }
     .email{
     width: 70%;
     }
     .socmed{
-    width: 50%;
-    align-items: center;
-    text-align: center;
+        width: 80%;
+        text-align: center;
+        margin: 0;
     }
-    .socmed img{
-        padding-top: 20px;
+    .socmed-icons{
+        justify-content: center;
+    }
+    .socmed-icon{
+        width: 30px;
+        height: 30px;
     }
     /* home */
     .home{
