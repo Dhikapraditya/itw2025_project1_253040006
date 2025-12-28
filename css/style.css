@@ -477,16 +477,16 @@ input[type='submit']:hover{
         margin-left: 0;
     }
     .home-img img {
-        width: 100%;
+        width: 80%;
     }
     .home-content{
         margin-right: 100px;
     }
     .home-content h1{
-        font-size: 3em;
+        font-size: 2em;
     }
     .home-content h3{
-        font-size: 3em;
+        font-size: 2em;
     }
 
     /* education  */
