@@ -483,10 +483,10 @@ input[type='submit']:hover{
         margin-right: 100px;
     }
     .home-content h1{
-        font-size: 2em;
+        font-size: 2rem;
     }
     .home-content h3{
-        font-size: 2em;
+        font-size: 2rem;
     }
 
     /* education  */
