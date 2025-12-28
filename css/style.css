@@ -404,31 +404,31 @@ input[type='submit']:hover{
 }
 
 .img-instagram{
-    background-image: url("/img/contactimg/instagram\ \(1\).png");
+    background-image: url("../img/contactimg/instagram\ \(1\).png");
 }
 .img-instagram:hover{
-    background-image: url("/img/contactimg/instagram\ \(3\).png");
+    background-image: url("../img/contactimg/instagram\ \(3\).png");
 }
 
 .img-wa{
-    background-image: url("/img/contactimg/whatsapp.png");
+    background-image: url("../img/contactimg/whatsapp.png");
 }
 .img-wa:hover{
-    background-image: url("/img/contactimg/whatsapp\ \(1\).png");
+    background-image: url("../img/contactimg/whatsapp\ \(1\).png");
 }
 
 .img-yt{
-    background-image: url("/img/contactimg/youtube\ \(1\).png");
+    background-image: url("../img/contactimg/youtube\ \(1\).png");
 }
 .img-yt:hover{
-    background-image: url("/img/contactimg/youtube\ \(2\).png");
+    background-image: url("../img/contactimg/youtube\ \(2\).png");
 }
 
 .img-git{
-    background-image: url("/img/contactimg/github.png");
+    background-image: url("../img/contactimg/github.png");
 }
 .img-git:hover{
-    background-image: url("/img/contactimg/github\ \(1\).png");
+    background-image: url("../img/contactimg/github\ \(1\).png");
 }
 
 
